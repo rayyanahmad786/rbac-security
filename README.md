@@ -5,7 +5,7 @@ This project aims to showcase the implementation of essential security concepts 
 
 - **Authentication**: Ensures secure verification of user identities.
 - **Authorization**: Grants access to resources based on roles.
-- **Role-Based Access Control (RBAC)**: Manages user permissions by assigning roles, controlling access to specific endpoints and actions.
+- **Role-Based Access Control (RBAC)**: Manages user permissions by assigning roles, and controlling access to specific endpoints and actions.
 
 ## Key Features
 
@@ -73,12 +73,11 @@ This project aims to showcase the implementation of essential security concepts 
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/22MCMC22/rbac-backend
-   cd project-directory
+   git clone https://github.com/rayyanahmad786/rbac-security
    ```
 
 2. **Set Up the Database**:
-   - Create a MySQL database named `rbac_system`.
+   - Create a MySQL database named `vrv_group_manager`.
    - Update the `application.properties` file with your database credentials.
 
 3. **Run the Application**:
@@ -96,6 +95,8 @@ src
 ├── main
 │ ├── java
 │ │ ├── com.code.controller    # Controllers for User and Post APIs
+│ │ ├── com.code.common        # Common UserConstant
+│ │ ├── com.code.config        # Configuration and Enable Web Security
 │ │ ├── com.code.entities      # Entity classes for User and Post
 │ │ ├── com.code.repositories  # Repository interfaces for database operations
 │ │ ├── com.code.security      # Spring Security configuration
